@@ -1,0 +1,29 @@
+<div class="card border-primary mb-3" >
+    <div class="card-header"></div>
+    <div class="card-body text-primary">
+      <h5 class="card-title">Informacion Empresarial</h5>
+      <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Mision</th>
+                <th>Vision</th>
+                <th>Valores</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let home of home">
+                <td>{{home.nombre}}</td>
+                <td>{{home.mision}}</td>
+                <td>{{home.vision}}</td>
+                <td>{{home.valores}}</td>
+                
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+
+

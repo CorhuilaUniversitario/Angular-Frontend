@@ -1,0 +1,16 @@
+<div class="card-group mb-4">
+    <div *ngFor="let equipos of equipos" class="card" class="equipos" >
+        <div class="card-body">
+          <h5 class="card-title">Equipos</h5>
+          <ul >
+            <li>{{equipos.nombre}}</li>
+            <li>{{equipos.apellido}}</li>
+            <li>{{equipos.rol}}</li>
+            <li>{{equipos.lenguaje}}</li>
+            <li>{{equipos.proyecto}}</li>
+          </ul>
+          <a href="/actividades" class="btn btn-primary">Actividades</a>
+        </div>
+      </div>
+</div>
+
