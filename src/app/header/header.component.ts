@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  title: any = "App Parcial";
+  title: any = "App Empresa";
 
 }
